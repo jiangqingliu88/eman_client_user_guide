@@ -5,7 +5,10 @@
 # Required
 
 version: "2"
- 
+
+languages:
+  - zh_CN
+  
 build:
   os: "ubuntu-22.04"
   tools:
