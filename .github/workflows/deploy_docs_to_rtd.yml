@@ -70,8 +70,8 @@ jobs:
           #sed -i '1d' source/API/modules.rst
           #sed -i '1i\API' source/API/modules.rst
 
-          git add .
-          git status
-          git remote remove origin
-          git remote add origin ${REPO_SSH}
-          git commit -m 'Actions auto update' && git push -f origin ${SUBMMIT_BRANCH} || echo "No changes to commit"
+          #git add .
+          #git status
+          #git remote remove origin
+          #git remote add origin ${REPO_SSH}
+          #git commit -m 'Actions auto update' && git push -f origin ${SUBMMIT_BRANCH} || echo "No changes to commit"
