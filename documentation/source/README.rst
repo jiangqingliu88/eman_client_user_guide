@@ -1,21 +1,21 @@
 .. vim: syntax=rst
 
-关于本eman_clinet指导文档项目
+关于本eman_exec指导文档项目
 ==============
 
-eman_clinet项目的github地址：xxxxxxxxxxx
+eman_exec项目的github地址：xxxxxxxxxxx
 
-eman_clinet项目的gitee 地址：xxxxxx
+eman_exec项目的gitee 地址：xxxxxx
 
-点击右侧链接可在线阅读本eman_clinet指导文档：《 @EasyView Ic Design copyright.man_clinet user guide <https://eman-client-user-guide.readthedocs.io/en/latest/>》
+点击右侧链接可在线阅读本eman_exec指导文档：《 EasyView Ic Design @copyright.eman_exec user guide <https://eman-client-user-guide.readthedocs.io/en/latest/>》
 
 
-本文档是关于如何使用eman_client编写文档的说明。
+本文档是关于如何使用eman_exec编写文档的说明。
 
-eman_client is highly imiatiave sim architure of ic design flow
+eman_exec is highly imiatiave sim architure of ic design flow
 ---------------------------------
 
-eman_client有如下优点：
+eman_exec有如下优点：
 
 - 使用extend,abstract 关键字，build section和test section命令选项的继承关系。
 
