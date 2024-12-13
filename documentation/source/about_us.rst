@@ -2,10 +2,8 @@
 
 .. _about_embedfire:
 
-关于EMAN_EXEC_MANAGER. EasyView Ic Design @copyright
+EMAN_EXEC_MANAGER. EasyView Ic Design @copyright
 ==============
-
-
   EMAN_EXEC_MANAGER 工具系列：
     - eman_exec
   
@@ -24,7 +22,7 @@
   eman_exec目前以功能覆盖率为goal进行收敛，在test 数据和cov 数据、种子数据管理基础之上，采用机器学习指定覆盖率优化目标，达到case 资源利用减少，以及约束空间下种子探索空间，自动增加种子，生成测试。
 
 
-联系方式
+个人联系方式
 ----------------------------
 - github主页：xxxxxx
 - gitee主页： xxxxxx
