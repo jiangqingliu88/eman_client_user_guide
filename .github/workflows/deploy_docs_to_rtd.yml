@@ -1,11 +1,11 @@
-name: Deploy the docs to RTD
+name: Deploy the main to RTD
 
 on:
   push:
     branches: [ main ]
     paths:  # 当更改以下文件时，会触发Actions更新文档
       - 'eman_client_user_guide/**'
-      - '.github/workflows/deploy_docs_to_rtd.yml'
+      - '.github/workflows/deploy_main_to_rtd.yml'
       - 'README.md'
 
 env:
@@ -40,10 +40,10 @@ jobs:
           git config --global user.name $USER_NAME
           git config --global user.email $USER_EMAIL
 
-      - name: Summit repo to docs branch.
+      - name: Summit repo to main branch.
         run: |
           ls
-          rm -r docs
+          rm -r main
 
           git clone -b ${SUBMMIT_BRANCH} $CLONE_URL ${SUBMMIT_BRANCH}
           cd ${SUBMMIT_BRANCH}
