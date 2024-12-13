@@ -46,7 +46,7 @@ jobs:
           #rm -r main
 
           git clone -b ${SUBMMIT_BRANCH} $CLONE_URL ${SUBMMIT_BRANCH}
-          cd ${SUBMMIT_BRANCH}
+          cd ${PACKAGE_NAME}
           rm -r ${PACKAGE_NAME} || true
           rm source/README.md || true
 
@@ -66,9 +66,9 @@ jobs:
 
           echo "Generate the api doc"
           pip install sphinx
-          sphinx-apidoc -o source/API/ ./${PACKAGE_NAME} -f -E -M
-          sed -i '1d' source/API/modules.rst
-          sed -i '1i\API' source/API/modules.rst
+          #sphinx-apidoc -o source/API/ ./${PACKAGE_NAME} -f -E -M
+          #sed -i '1d' source/API/modules.rst
+          #sed -i '1i\API' source/API/modules.rst
 
           git add .
           git status
