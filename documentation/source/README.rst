@@ -1,6 +1,6 @@
 .. vim: syntax=rst
 
-关于本eman_exec指导文档项目
+eman_exec指导文档
 ==============
 
 eman_exec项目的github地址：xxxxxxxxxxx
@@ -10,9 +10,9 @@ eman_exec项目的gitee 地址：xxxxxx
 点击右侧链接可在线阅读本eman_exec指导文档：《 EasyView Ic Design @copyright.eman_exec user guide <https://eman-client-user-guide.readthedocs.io/en/latest/>》
 
 
-本文档是关于如何使用eman_exec编写文档的说明。
+本文档是关于如何使用eman_exec编写文档的说明。eman_exec is highly imiatiave sim architure of ic design flow。
 
-eman_exec is highly imiatiave sim architure of ic design flow
+eman_exec 特性：
 ---------------------------------
 
 eman_exec有如下优点：
