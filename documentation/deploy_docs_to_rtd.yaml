@@ -13,7 +13,7 @@ env:
   CLONE_URL: ${{ github.event.repository.clone_url }}
   USER_NAME: ${{ github.event.repository.owner.name }}
   USER_EMAIL: ${{ github.event.repository.owner.email }}
-  SUBMMIT_BRANCH: docs
+  SUBMMIT_BRANCH: main
   PACKAGE_NAME: eman_client_user_guide
 
 jobs:
