@@ -1,10 +1,10 @@
-ame: Deploy the docs to RTD
+name: Deploy the docs to RTD
 
 on:
   push:
     branches: [ main ]
     paths:  # 当更改以下文件时，会触发Actions更新文档
-      - './**'
+      - 'eman_client_user_guide/**'
       - '.github/workflows/deploy_docs_to_rtd.yml'
       - 'README.md'
 
