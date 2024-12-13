@@ -2,7 +2,7 @@
 
 .. _about_embedfire:
 
-关于EMAN_EXEC_MANAGER
+关于EMAN_EXEC_MANAGER. EasyView Ic Design @copyright
 ==============
 
 
