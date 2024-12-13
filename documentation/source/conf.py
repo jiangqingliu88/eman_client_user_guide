@@ -10,7 +10,7 @@ project = 'eman client user guide'
 copyright = '2024, liujiangqing'
 author = 'liujiangqing'
 release = 'v1.0'
-
+language = 'zh_CN'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
